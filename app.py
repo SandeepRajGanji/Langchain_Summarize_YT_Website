@@ -22,7 +22,7 @@ Content:{text}
 """
 prompt=PromptTemplate(template=prompt_template)
 
-if st.button("Summarize the Content from YT or Website"):
+if st.button("Summarize"):
     # Validate all the inputs
     if not api_key.strip() or not url.strip():
         st.error("Please provide the information to get started")
