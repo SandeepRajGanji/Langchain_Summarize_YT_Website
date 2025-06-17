@@ -12,7 +12,7 @@ st.subheader('Summarize URL')
 
 
 with st.sidebar:
-    groq_api_key=st.text_input("Groq API Key",value="",type="password")
+    groq_api_key=st.text_input("Groq API Key",type="password")
 
 url=st.text_input("URL",label_visibility="collapsed")
 
